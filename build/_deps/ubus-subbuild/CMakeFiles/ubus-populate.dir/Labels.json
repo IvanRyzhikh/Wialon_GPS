@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/ubus-subbuild/CMakeFiles/ubus-populate"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/ubus-subbuild/CMakeFiles/ubus-populate.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/ubus-subbuild/CMakeFiles/ubus-populate-complete.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/ubus-subbuild/ubus-populate-prefix/src/ubus-populate-stamp/ubus-populate-build.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/ubus-subbuild/ubus-populate-prefix/src/ubus-populate-stamp/ubus-populate-configure.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/ubus-subbuild/ubus-populate-prefix/src/ubus-populate-stamp/ubus-populate-download.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/ubus-subbuild/ubus-populate-prefix/src/ubus-populate-stamp/ubus-populate-install.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/ubus-subbuild/ubus-populate-prefix/src/ubus-populate-stamp/ubus-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/ubus-subbuild/ubus-populate-prefix/src/ubus-populate-stamp/ubus-populate-patch.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/ubus-subbuild/ubus-populate-prefix/src/ubus-populate-stamp/ubus-populate-test.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/ubus-subbuild/ubus-populate-prefix/src/ubus-populate-stamp/ubus-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ubus-populate"
+		],
+		"name" : "ubus-populate"
+	}
+}

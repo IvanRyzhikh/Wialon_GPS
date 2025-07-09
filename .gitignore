@@ -1,9 +1,0 @@
-.idea/
-.vscode/
-
-cmake-build-*
-build/
-build-arm/
-
-.DS_Store
-

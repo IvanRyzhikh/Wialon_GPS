@@ -1,0 +1,29 @@
+CMakeFiles/mon.dir/_deps/law-src/src/SPI/Mode.cpp.o: \
+  /home/user/work/mon-service/build/_deps/law-src/src/SPI/Mode.cpp \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/linux/spi/spidev.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/linux/types.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/asm/types.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/asm-generic/int-ll64.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/asm/bitsperlong.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/asm-generic/bitsperlong.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/linux/posix_types.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/linux/stddef.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/asm/posix_types.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/asm-generic/posix_types.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/linux/ioctl.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/asm/ioctl.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/asm-generic/ioctl.h \
+  /home/user/work/mon-service/build/_deps/law-src/inc/law/SPI/Mode.h \
+  /home/user/work/mon-service/build/_deps/law-src/inc/law/FlagValue.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/cstdint \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/arm-linux-musleabihf/bits/c++config.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/arm-linux-musleabihf/bits/os_defines.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/arm-linux-musleabihf/bits/cpu_defines.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/pstl/pstl_config.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/stdint.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/bits/alltypes.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/bits/stdint.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/compare \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/bits/version.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/concepts \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/type_traits

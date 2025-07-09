@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/blobmsg_json-subbuild/CMakeFiles/blobmsg_json-populate"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/blobmsg_json-subbuild/CMakeFiles/blobmsg_json-populate.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/blobmsg_json-subbuild/CMakeFiles/blobmsg_json-populate-complete.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/blobmsg_json-subbuild/blobmsg_json-populate-prefix/src/blobmsg_json-populate-stamp/blobmsg_json-populate-build.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/blobmsg_json-subbuild/blobmsg_json-populate-prefix/src/blobmsg_json-populate-stamp/blobmsg_json-populate-configure.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/blobmsg_json-subbuild/blobmsg_json-populate-prefix/src/blobmsg_json-populate-stamp/blobmsg_json-populate-download.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/blobmsg_json-subbuild/blobmsg_json-populate-prefix/src/blobmsg_json-populate-stamp/blobmsg_json-populate-install.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/blobmsg_json-subbuild/blobmsg_json-populate-prefix/src/blobmsg_json-populate-stamp/blobmsg_json-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/blobmsg_json-subbuild/blobmsg_json-populate-prefix/src/blobmsg_json-populate-stamp/blobmsg_json-populate-patch.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/blobmsg_json-subbuild/blobmsg_json-populate-prefix/src/blobmsg_json-populate-stamp/blobmsg_json-populate-test.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/blobmsg_json-subbuild/blobmsg_json-populate-prefix/src/blobmsg_json-populate-stamp/blobmsg_json-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"blobmsg_json-populate"
+		],
+		"name" : "blobmsg_json-populate"
+	}
+}

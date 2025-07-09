@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/usr/bin/cmake;-P;/home/user/work/mon-service/build/_deps/blobmsg_json-subbuild/blobmsg_json-populate-prefix/src/blobmsg_json-populate-stamp/download-blobmsg_json-populate.cmake;COMMAND;/usr/bin/cmake;-P;/home/user/work/mon-service/build/_deps/blobmsg_json-subbuild/blobmsg_json-populate-prefix/src/blobmsg_json-populate-stamp/verify-blobmsg_json-populate.cmake;COMMAND;/usr/bin/cmake;-P;/home/user/work/mon-service/build/_deps/blobmsg_json-subbuild/blobmsg_json-populate-prefix/src/blobmsg_json-populate-stamp/extract-blobmsg_json-populate.cmake
+source_dir=/home/user/work/mon-service/build/_deps/blobmsg_json-src
+work_dir=/home/user/work/mon-service/build/_deps
+url(s)=http://ftdocker04.ft.local:60761/stable/cortex-a7/libblobmsg_json-1.0.0-2-g71300bb.tar.gz
+hash=
+no_extract=
+

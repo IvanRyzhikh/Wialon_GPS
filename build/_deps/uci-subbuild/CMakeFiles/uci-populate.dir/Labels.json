@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/uci-subbuild/CMakeFiles/uci-populate"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/uci-subbuild/CMakeFiles/uci-populate.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/uci-subbuild/CMakeFiles/uci-populate-complete.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/uci-subbuild/uci-populate-prefix/src/uci-populate-stamp/uci-populate-build.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/uci-subbuild/uci-populate-prefix/src/uci-populate-stamp/uci-populate-configure.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/uci-subbuild/uci-populate-prefix/src/uci-populate-stamp/uci-populate-download.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/uci-subbuild/uci-populate-prefix/src/uci-populate-stamp/uci-populate-install.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/uci-subbuild/uci-populate-prefix/src/uci-populate-stamp/uci-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/uci-subbuild/uci-populate-prefix/src/uci-populate-stamp/uci-populate-patch.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/uci-subbuild/uci-populate-prefix/src/uci-populate-stamp/uci-populate-test.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/uci-subbuild/uci-populate-prefix/src/uci-populate-stamp/uci-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"uci-populate"
+		],
+		"name" : "uci-populate"
+	}
+}

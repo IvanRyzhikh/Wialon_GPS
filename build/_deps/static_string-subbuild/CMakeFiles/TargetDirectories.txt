@@ -1,0 +1,3 @@
+/home/user/work/mon-service/build/_deps/static_string-subbuild/CMakeFiles/static_string-populate.dir
+/home/user/work/mon-service/build/_deps/static_string-subbuild/CMakeFiles/edit_cache.dir
+/home/user/work/mon-service/build/_deps/static_string-subbuild/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+/home/user/work/mon-service/build/_deps/magic_enum-subbuild/CMakeFiles/magic_enum-populate.dir
+/home/user/work/mon-service/build/_deps/magic_enum-subbuild/CMakeFiles/edit_cache.dir
+/home/user/work/mon-service/build/_deps/magic_enum-subbuild/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/usr/bin/cmake;-P;/home/user/work/mon-service/build/_deps/static_string-subbuild/static_string-populate-prefix/src/static_string-populate-stamp/download-static_string-populate.cmake;COMMAND;/usr/bin/cmake;-P;/home/user/work/mon-service/build/_deps/static_string-subbuild/static_string-populate-prefix/src/static_string-populate-stamp/verify-static_string-populate.cmake;COMMAND;/usr/bin/cmake;-P;/home/user/work/mon-service/build/_deps/static_string-subbuild/static_string-populate-prefix/src/static_string-populate-stamp/extract-static_string-populate.cmake
+source_dir=/home/user/work/mon-service/build/_deps/static_string-src
+work_dir=/home/user/work/mon-service/build/_deps
+url(s)=http://ftdocker04.ft.local:60761/stable/cortex-a7/libstatic_string-1.0.0-3-g1c8f8c0.tar.gz
+hash=
+no_extract=
+

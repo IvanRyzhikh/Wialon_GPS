@@ -1,0 +1,3 @@
+/home/user/work/mon-service/build/_deps/uci-subbuild/CMakeFiles/uci-populate.dir
+/home/user/work/mon-service/build/_deps/uci-subbuild/CMakeFiles/edit_cache.dir
+/home/user/work/mon-service/build/_deps/uci-subbuild/CMakeFiles/rebuild_cache.dir

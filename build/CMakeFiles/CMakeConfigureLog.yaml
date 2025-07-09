@@ -1,0 +1,434 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The target system is: Linux -  - arm
+      The host system is: Linux - 6.8.0-60-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/clang-19 
+      Build flags: 
+      Id flags: -c;--target=arm-linux-musleabihf 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is Clang, found in:
+        /home/user/work/mon-service/build/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/clang++-19 
+      Build flags: 
+      Id flags: -c;--target=arm-linux-musleabihf 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/user/work/mon-service/build/CMakeFiles/3.28.3/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/user/work/mon-service/build/CMakeFiles/CMakeScratch/TryCompile-K5VyDV"
+      binary: "/home/user/work/mon-service/build/CMakeFiles/CMakeScratch/TryCompile-K5VyDV"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: "/opt/arm-linux-musleabihf/"
+      CMAKE_CXX_COMPILER_TARGET: "arm-linux-musleabihf"
+      CMAKE_C_COMPILER_EXTERNAL_TOOLCHAIN: "/opt/arm-linux-musleabihf/"
+      CMAKE_C_COMPILER_TARGET: "arm-linux-musleabihf"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-fuse-ld=lld-19"
+      CMAKE_SYSROOT: "/opt/arm-linux-musleabihf/arm-linux-musleabihf"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/user/work/mon-service/build/CMakeFiles/CMakeScratch/TryCompile-K5VyDV'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a5ded/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a5ded.dir/build.make CMakeFiles/cmTC_a5ded.dir/build
+        gmake[1]: Entering directory '/home/user/work/mon-service/build/CMakeFiles/CMakeScratch/TryCompile-K5VyDV'
+        Building C object CMakeFiles/cmTC_a5ded.dir/CMakeCCompilerABI.c.o
+        /usr/bin/clang-19 --target=arm-linux-musleabihf --gcc-toolchain=/opt/arm-linux-musleabihf/ --sysroot=/opt/arm-linux-musleabihf/arm-linux-musleabihf   -v -MD -MT CMakeFiles/cmTC_a5ded.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a5ded.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a5ded.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Ubuntu clang version 19.1.7 (++20250114103332+cd708029e0b2-1~exp1~20250114103446.78)
+        Target: arm-unknown-linux-musleabihf
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm-19/bin
+        Found candidate GCC installation: /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0
+        Selected GCC installation: /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0
+        Candidate multilib: .;@m32
+        Selected multilib: .;@m32
+         (in-process)
+         "/usr/lib/llvm-19/bin/clang" -cc1 -triple armv7-unknown-linux-musleabihf -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -target-cpu generic -target-feature +vfp2 -target-feature +vfp2sp -target-feature -vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi hard -debugger-tuning=gdb -fdebug-compilation-dir=/home/user/work/mon-service/build/CMakeFiles/CMakeScratch/TryCompile-K5VyDV -v -fcoverage-compilation-dir=/home/user/work/mon-service/build/CMakeFiles/CMakeScratch/TryCompile-K5VyDV -resource-dir /usr/lib/llvm-19/lib/clang/19 -dependency-file CMakeFiles/cmTC_a5ded.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_a5ded.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /opt/arm-linux-musleabihf/arm-linux-musleabihf -internal-isystem /opt/arm-linux-musleabihf/arm-linux-musleabihf/usr/local/include -internal-isystem /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include -internal-externc-isystem /opt/arm-linux-musleabihf/arm-linux-musleabihf/include -internal-externc-isystem /opt/arm-linux-musleabihf/arm-linux-musleabihf/usr/include -internal-isystem /usr/lib/llvm-19/lib/clang/19/include -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -o CMakeFiles/cmTC_a5ded.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 19.1.7 based upon LLVM 19.1.7 default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/opt/arm-linux-musleabihf/arm-linux-musleabihf/usr/local/include"
+        ignoring nonexistent directory "/opt/arm-linux-musleabihf/arm-linux-musleabihf/usr/include"
+        ignoring duplicate directory "/opt/arm-linux-musleabihf/arm-linux-musleabihf/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include
+         /usr/lib/llvm-19/lib/clang/19/include
+        End of search list.
+        Linking C executable cmTC_a5ded
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5ded.dir/link.txt --verbose=1
+        /usr/bin/clang-19 --target=arm-linux-musleabihf --gcc-toolchain=/opt/arm-linux-musleabihf/ --sysroot=/opt/arm-linux-musleabihf/arm-linux-musleabihf -fuse-ld=lld-19 -v CMakeFiles/cmTC_a5ded.dir/CMakeCCompilerABI.c.o -o cmTC_a5ded 
+        Ubuntu clang version 19.1.7 (++20250114103332+cd708029e0b2-1~exp1~20250114103446.78)
+        Target: arm-unknown-linux-musleabihf
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm-19/bin
+        Found candidate GCC installation: /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0
+        Selected GCC installation: /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0
+        Candidate multilib: .;@m32
+        Selected multilib: .;@m32
+         "/usr/bin/ld.lld-19" --sysroot=/opt/arm-linux-musleabihf/arm-linux-musleabihf -EL -z relro -X --hash-style=gnu --build-id --eh-frame-hdr -m armelf_linux_eabi -pie -dynamic-linker /lib/ld-musl-armhf.so.1 -o cmTC_a5ded /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/Scrt1.o /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/crti.o /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/crtbeginS.o -L/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0 -L/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib -L/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib/../lib -L/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib -L/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib CMakeFiles/cmTC_a5ded.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/crtendS.o /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/crtn.o
+        gmake[1]: Leaving directory '/home/user/work/mon-service/build/CMakeFiles/CMakeScratch/TryCompile-K5VyDV'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include]
+          add: [/usr/lib/llvm-19/lib/clang/19/include]
+        end of search list found
+        collapse include dir [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include] ==> [/opt/arm-linux-musleabihf/arm-linux-musleabihf/include]
+        collapse include dir [/usr/lib/llvm-19/lib/clang/19/include] ==> [/usr/lib/llvm-19/lib/clang/19/include]
+        implicit include dirs: [/opt/arm-linux-musleabihf/arm-linux-musleabihf/include;/usr/lib/llvm-19/lib/clang/19/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.lld-19|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/user/work/mon-service/build/CMakeFiles/CMakeScratch/TryCompile-K5VyDV']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a5ded/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_a5ded.dir/build.make CMakeFiles/cmTC_a5ded.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/user/work/mon-service/build/CMakeFiles/CMakeScratch/TryCompile-K5VyDV']
+        ignore line: [Building C object CMakeFiles/cmTC_a5ded.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/clang-19 --target=arm-linux-musleabihf --gcc-toolchain=/opt/arm-linux-musleabihf/ --sysroot=/opt/arm-linux-musleabihf/arm-linux-musleabihf   -v -MD -MT CMakeFiles/cmTC_a5ded.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a5ded.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a5ded.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Ubuntu clang version 19.1.7 (++20250114103332+cd708029e0b2-1~exp1~20250114103446.78)]
+        ignore line: [Target: arm-unknown-linux-musleabihf]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/lib/llvm-19/bin]
+        ignore line: [Found candidate GCC installation: /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0]
+        ignore line: [Selected GCC installation: /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m32]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m32]
+        ignore line: [ (in-process)]
+        ignore line: [ "/usr/lib/llvm-19/bin/clang" -cc1 -triple armv7-unknown-linux-musleabihf -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -target-cpu generic -target-feature +vfp2 -target-feature +vfp2sp -target-feature -vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi hard -debugger-tuning=gdb -fdebug-compilation-dir=/home/user/work/mon-service/build/CMakeFiles/CMakeScratch/TryCompile-K5VyDV -v -fcoverage-compilation-dir=/home/user/work/mon-service/build/CMakeFiles/CMakeScratch/TryCompile-K5VyDV -resource-dir /usr/lib/llvm-19/lib/clang/19 -dependency-file CMakeFiles/cmTC_a5ded.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_a5ded.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /opt/arm-linux-musleabihf/arm-linux-musleabihf -internal-isystem /opt/arm-linux-musleabihf/arm-linux-musleabihf/usr/local/include -internal-isystem /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include -internal-externc-isystem /opt/arm-linux-musleabihf/arm-linux-musleabihf/include -internal-externc-isystem /opt/arm-linux-musleabihf/arm-linux-musleabihf/usr/include -internal-isystem /usr/lib/llvm-19/lib/clang/19/include -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -o CMakeFiles/cmTC_a5ded.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 19.1.7 based upon LLVM 19.1.7 default target x86_64-pc-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/opt/arm-linux-musleabihf/arm-linux-musleabihf/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/opt/arm-linux-musleabihf/arm-linux-musleabihf/usr/include"]
+        ignore line: [ignoring duplicate directory "/opt/arm-linux-musleabihf/arm-linux-musleabihf/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include]
+        ignore line: [ /usr/lib/llvm-19/lib/clang/19/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_a5ded]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5ded.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/clang-19 --target=arm-linux-musleabihf --gcc-toolchain=/opt/arm-linux-musleabihf/ --sysroot=/opt/arm-linux-musleabihf/arm-linux-musleabihf -fuse-ld=lld-19 -v CMakeFiles/cmTC_a5ded.dir/CMakeCCompilerABI.c.o -o cmTC_a5ded ]
+        ignore line: [Ubuntu clang version 19.1.7 (++20250114103332+cd708029e0b2-1~exp1~20250114103446.78)]
+        ignore line: [Target: arm-unknown-linux-musleabihf]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/lib/llvm-19/bin]
+        ignore line: [Found candidate GCC installation: /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0]
+        ignore line: [Selected GCC installation: /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m32]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m32]
+        link line: [ "/usr/bin/ld.lld-19" --sysroot=/opt/arm-linux-musleabihf/arm-linux-musleabihf -EL -z relro -X --hash-style=gnu --build-id --eh-frame-hdr -m armelf_linux_eabi -pie -dynamic-linker /lib/ld-musl-armhf.so.1 -o cmTC_a5ded /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/Scrt1.o /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/crti.o /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/crtbeginS.o -L/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0 -L/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib -L/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib/../lib -L/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib -L/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib CMakeFiles/cmTC_a5ded.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/crtendS.o /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/crtn.o]
+          arg [/usr/bin/ld.lld-19] ==> ignore
+          arg [--sysroot=/opt/arm-linux-musleabihf/arm-linux-musleabihf] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-X] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [armelf_linux_eabi] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-musl-armhf.so.1] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_a5ded] ==> ignore
+          arg [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/Scrt1.o] ==> obj [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/Scrt1.o]
+          arg [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/crti.o] ==> obj [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/crti.o]
+          arg [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/crtbeginS.o] ==> obj [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/crtbeginS.o]
+          arg [-L/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0] ==> dir [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0]
+          arg [-L/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib] ==> dir [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib]
+          arg [-L/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib/../lib] ==> dir [/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib/../lib]
+          arg [-L/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib] ==> dir [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib]
+          arg [-L/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib] ==> dir [/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib]
+          arg [CMakeFiles/cmTC_a5ded.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/crtendS.o] ==> obj [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/crtendS.o]
+          arg [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/crtn.o] ==> obj [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/crtn.o]
+        collapse obj [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/Scrt1.o] ==> [/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib/Scrt1.o]
+        collapse obj [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/crti.o] ==> [/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib/crti.o]
+        collapse obj [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/crtn.o] ==> [/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib/crtn.o]
+        collapse library dir [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0] ==> [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0]
+        collapse library dir [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib] ==> [/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib]
+        collapse library dir [/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib/../lib] ==> [/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib]
+        collapse library dir [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib] ==> [/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib]
+        collapse library dir [/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib] ==> [/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib/Scrt1.o;/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib/crti.o;/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/crtbeginS.o;/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/crtendS.o;/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib/crtn.o]
+        implicit dirs: [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0;/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/user/work/mon-service/build/CMakeFiles/CMakeScratch/TryCompile-oi9iNG"
+      binary: "/home/user/work/mon-service/build/CMakeFiles/CMakeScratch/TryCompile-oi9iNG"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: "/opt/arm-linux-musleabihf/"
+      CMAKE_CXX_COMPILER_TARGET: "arm-linux-musleabihf"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_C_COMPILER_EXTERNAL_TOOLCHAIN: "/opt/arm-linux-musleabihf/"
+      CMAKE_C_COMPILER_TARGET: "arm-linux-musleabihf"
+      CMAKE_EXE_LINKER_FLAGS: "-fuse-ld=lld-19"
+      CMAKE_SYSROOT: "/opt/arm-linux-musleabihf/arm-linux-musleabihf"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/user/work/mon-service/build/CMakeFiles/CMakeScratch/TryCompile-oi9iNG'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_220a5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_220a5.dir/build.make CMakeFiles/cmTC_220a5.dir/build
+        gmake[1]: Entering directory '/home/user/work/mon-service/build/CMakeFiles/CMakeScratch/TryCompile-oi9iNG'
+        Building CXX object CMakeFiles/cmTC_220a5.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/clang++-19 --target=arm-linux-musleabihf --gcc-toolchain=/opt/arm-linux-musleabihf/ --sysroot=/opt/arm-linux-musleabihf/arm-linux-musleabihf   -v -MD -MT CMakeFiles/cmTC_220a5.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_220a5.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_220a5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Ubuntu clang version 19.1.7 (++20250114103332+cd708029e0b2-1~exp1~20250114103446.78)
+        Target: arm-unknown-linux-musleabihf
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm-19/bin
+        Found candidate GCC installation: /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0
+        Selected GCC installation: /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0
+        Candidate multilib: .;@m32
+        Selected multilib: .;@m32
+         (in-process)
+         "/usr/lib/llvm-19/bin/clang" -cc1 -triple armv7-unknown-linux-musleabihf -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -target-cpu generic -target-feature +vfp2 -target-feature +vfp2sp -target-feature -vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi hard -debugger-tuning=gdb -fdebug-compilation-dir=/home/user/work/mon-service/build/CMakeFiles/CMakeScratch/TryCompile-oi9iNG -v -fcoverage-compilation-dir=/home/user/work/mon-service/build/CMakeFiles/CMakeScratch/TryCompile-oi9iNG -resource-dir /usr/lib/llvm-19/lib/clang/19 -dependency-file CMakeFiles/cmTC_220a5.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_220a5.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /opt/arm-linux-musleabihf/arm-linux-musleabihf -internal-isystem /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0 -internal-isystem /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/arm-linux-musleabihf -internal-isystem /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/backward -internal-isystem /opt/arm-linux-musleabihf/arm-linux-musleabihf/usr/local/include -internal-isystem /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include -internal-externc-isystem /opt/arm-linux-musleabihf/arm-linux-musleabihf/include -internal-externc-isystem /opt/arm-linux-musleabihf/arm-linux-musleabihf/usr/include -internal-isystem /usr/lib/llvm-19/lib/clang/19/include -fdeprecated-macro -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_220a5.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 19.1.7 based upon LLVM 19.1.7 default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/opt/arm-linux-musleabihf/arm-linux-musleabihf/usr/local/include"
+        ignoring nonexistent directory "/opt/arm-linux-musleabihf/arm-linux-musleabihf/usr/include"
+        ignoring duplicate directory "/opt/arm-linux-musleabihf/arm-linux-musleabihf/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0
+         /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/arm-linux-musleabihf
+         /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/backward
+         /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include
+         /usr/lib/llvm-19/lib/clang/19/include
+        End of search list.
+        Linking CXX executable cmTC_220a5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_220a5.dir/link.txt --verbose=1
+        /usr/bin/clang++-19 --target=arm-linux-musleabihf --gcc-toolchain=/opt/arm-linux-musleabihf/ --sysroot=/opt/arm-linux-musleabihf/arm-linux-musleabihf -fuse-ld=lld-19 -v CMakeFiles/cmTC_220a5.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_220a5 
+        Ubuntu clang version 19.1.7 (++20250114103332+cd708029e0b2-1~exp1~20250114103446.78)
+        Target: arm-unknown-linux-musleabihf
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm-19/bin
+        Found candidate GCC installation: /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0
+        Selected GCC installation: /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0
+        Candidate multilib: .;@m32
+        Selected multilib: .;@m32
+         "/usr/bin/ld.lld-19" --sysroot=/opt/arm-linux-musleabihf/arm-linux-musleabihf -EL -z relro -X --hash-style=gnu --build-id --eh-frame-hdr -m armelf_linux_eabi -pie -dynamic-linker /lib/ld-musl-armhf.so.1 -o cmTC_220a5 /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/Scrt1.o /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/crti.o /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/crtbeginS.o -L/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0 -L/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib -L/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib/../lib -L/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib -L/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib CMakeFiles/cmTC_220a5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/crtendS.o /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/crtn.o
+        gmake[1]: Leaving directory '/home/user/work/mon-service/build/CMakeFiles/CMakeScratch/TryCompile-oi9iNG'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0]
+          add: [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/arm-linux-musleabihf]
+          add: [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/backward]
+          add: [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include]
+          add: [/usr/lib/llvm-19/lib/clang/19/include]
+        end of search list found
+        collapse include dir [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0] ==> [/opt/arm-linux-musleabihf/arm-linux-musleabihf/include/c++/14.2.0]
+        collapse include dir [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/arm-linux-musleabihf] ==> [/opt/arm-linux-musleabihf/arm-linux-musleabihf/include/c++/14.2.0/arm-linux-musleabihf]
+        collapse include dir [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/backward] ==> [/opt/arm-linux-musleabihf/arm-linux-musleabihf/include/c++/14.2.0/backward]
+        collapse include dir [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include] ==> [/opt/arm-linux-musleabihf/arm-linux-musleabihf/include]
+        collapse include dir [/usr/lib/llvm-19/lib/clang/19/include] ==> [/usr/lib/llvm-19/lib/clang/19/include]
+        implicit include dirs: [/opt/arm-linux-musleabihf/arm-linux-musleabihf/include/c++/14.2.0;/opt/arm-linux-musleabihf/arm-linux-musleabihf/include/c++/14.2.0/arm-linux-musleabihf;/opt/arm-linux-musleabihf/arm-linux-musleabihf/include/c++/14.2.0/backward;/opt/arm-linux-musleabihf/arm-linux-musleabihf/include;/usr/lib/llvm-19/lib/clang/19/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.lld-19|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/user/work/mon-service/build/CMakeFiles/CMakeScratch/TryCompile-oi9iNG']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_220a5/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_220a5.dir/build.make CMakeFiles/cmTC_220a5.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/user/work/mon-service/build/CMakeFiles/CMakeScratch/TryCompile-oi9iNG']
+        ignore line: [Building CXX object CMakeFiles/cmTC_220a5.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/clang++-19 --target=arm-linux-musleabihf --gcc-toolchain=/opt/arm-linux-musleabihf/ --sysroot=/opt/arm-linux-musleabihf/arm-linux-musleabihf   -v -MD -MT CMakeFiles/cmTC_220a5.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_220a5.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_220a5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Ubuntu clang version 19.1.7 (++20250114103332+cd708029e0b2-1~exp1~20250114103446.78)]
+        ignore line: [Target: arm-unknown-linux-musleabihf]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/lib/llvm-19/bin]
+        ignore line: [Found candidate GCC installation: /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0]
+        ignore line: [Selected GCC installation: /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m32]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m32]
+        ignore line: [ (in-process)]
+        ignore line: [ "/usr/lib/llvm-19/bin/clang" -cc1 -triple armv7-unknown-linux-musleabihf -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -target-cpu generic -target-feature +vfp2 -target-feature +vfp2sp -target-feature -vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi hard -debugger-tuning=gdb -fdebug-compilation-dir=/home/user/work/mon-service/build/CMakeFiles/CMakeScratch/TryCompile-oi9iNG -v -fcoverage-compilation-dir=/home/user/work/mon-service/build/CMakeFiles/CMakeScratch/TryCompile-oi9iNG -resource-dir /usr/lib/llvm-19/lib/clang/19 -dependency-file CMakeFiles/cmTC_220a5.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_220a5.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /opt/arm-linux-musleabihf/arm-linux-musleabihf -internal-isystem /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0 -internal-isystem /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/arm-linux-musleabihf -internal-isystem /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/backward -internal-isystem /opt/arm-linux-musleabihf/arm-linux-musleabihf/usr/local/include -internal-isystem /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include -internal-externc-isystem /opt/arm-linux-musleabihf/arm-linux-musleabihf/include -internal-externc-isystem /opt/arm-linux-musleabihf/arm-linux-musleabihf/usr/include -internal-isystem /usr/lib/llvm-19/lib/clang/19/include -fdeprecated-macro -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_220a5.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 19.1.7 based upon LLVM 19.1.7 default target x86_64-pc-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/opt/arm-linux-musleabihf/arm-linux-musleabihf/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/opt/arm-linux-musleabihf/arm-linux-musleabihf/usr/include"]
+        ignore line: [ignoring duplicate directory "/opt/arm-linux-musleabihf/arm-linux-musleabihf/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0]
+        ignore line: [ /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/arm-linux-musleabihf]
+        ignore line: [ /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/backward]
+        ignore line: [ /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include]
+        ignore line: [ /usr/lib/llvm-19/lib/clang/19/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_220a5]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_220a5.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/clang++-19 --target=arm-linux-musleabihf --gcc-toolchain=/opt/arm-linux-musleabihf/ --sysroot=/opt/arm-linux-musleabihf/arm-linux-musleabihf -fuse-ld=lld-19 -v CMakeFiles/cmTC_220a5.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_220a5 ]
+        ignore line: [Ubuntu clang version 19.1.7 (++20250114103332+cd708029e0b2-1~exp1~20250114103446.78)]
+        ignore line: [Target: arm-unknown-linux-musleabihf]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/lib/llvm-19/bin]
+        ignore line: [Found candidate GCC installation: /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0]
+        ignore line: [Selected GCC installation: /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m32]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m32]
+        link line: [ "/usr/bin/ld.lld-19" --sysroot=/opt/arm-linux-musleabihf/arm-linux-musleabihf -EL -z relro -X --hash-style=gnu --build-id --eh-frame-hdr -m armelf_linux_eabi -pie -dynamic-linker /lib/ld-musl-armhf.so.1 -o cmTC_220a5 /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/Scrt1.o /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/crti.o /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/crtbeginS.o -L/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0 -L/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib -L/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib/../lib -L/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib -L/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib CMakeFiles/cmTC_220a5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/crtendS.o /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/crtn.o]
+          arg [/usr/bin/ld.lld-19] ==> ignore
+          arg [--sysroot=/opt/arm-linux-musleabihf/arm-linux-musleabihf] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-X] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [armelf_linux_eabi] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-musl-armhf.so.1] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_220a5] ==> ignore
+          arg [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/Scrt1.o] ==> obj [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/Scrt1.o]
+          arg [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/crti.o] ==> obj [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/crti.o]
+          arg [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/crtbeginS.o] ==> obj [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/crtbeginS.o]
+          arg [-L/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0] ==> dir [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0]
+          arg [-L/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib] ==> dir [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib]
+          arg [-L/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib/../lib] ==> dir [/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib/../lib]
+          arg [-L/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib] ==> dir [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib]
+          arg [-L/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib] ==> dir [/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib]
+          arg [CMakeFiles/cmTC_220a5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/crtendS.o] ==> obj [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/crtendS.o]
+          arg [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/crtn.o] ==> obj [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/crtn.o]
+        collapse obj [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/Scrt1.o] ==> [/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib/Scrt1.o]
+        collapse obj [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/crti.o] ==> [/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib/crti.o]
+        collapse obj [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib/crtn.o] ==> [/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib/crtn.o]
+        collapse library dir [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0] ==> [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0]
+        collapse library dir [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib/../lib] ==> [/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib]
+        collapse library dir [/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib/../lib] ==> [/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib]
+        collapse library dir [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/lib] ==> [/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib]
+        collapse library dir [/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib] ==> [/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib/Scrt1.o;/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib/crti.o;/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/crtbeginS.o;/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/crtendS.o;/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib/crtn.o]
+        implicit dirs: [/opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0;/opt/arm-linux-musleabihf/arm-linux-musleabihf/lib]
+        implicit fwks: []
+      
+      
+...

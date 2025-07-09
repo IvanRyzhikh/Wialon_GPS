@@ -1,0 +1,3 @@
+/home/user/work/mon-service/build/_deps/ubus-subbuild/CMakeFiles/ubus-populate.dir
+/home/user/work/mon-service/build/_deps/ubus-subbuild/CMakeFiles/edit_cache.dir
+/home/user/work/mon-service/build/_deps/ubus-subbuild/CMakeFiles/rebuild_cache.dir

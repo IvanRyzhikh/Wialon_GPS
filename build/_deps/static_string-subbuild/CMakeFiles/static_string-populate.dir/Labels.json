@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/static_string-subbuild/CMakeFiles/static_string-populate"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/static_string-subbuild/CMakeFiles/static_string-populate.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/static_string-subbuild/CMakeFiles/static_string-populate-complete.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/static_string-subbuild/static_string-populate-prefix/src/static_string-populate-stamp/static_string-populate-build.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/static_string-subbuild/static_string-populate-prefix/src/static_string-populate-stamp/static_string-populate-configure.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/static_string-subbuild/static_string-populate-prefix/src/static_string-populate-stamp/static_string-populate-download.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/static_string-subbuild/static_string-populate-prefix/src/static_string-populate-stamp/static_string-populate-install.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/static_string-subbuild/static_string-populate-prefix/src/static_string-populate-stamp/static_string-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/static_string-subbuild/static_string-populate-prefix/src/static_string-populate-stamp/static_string-populate-patch.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/static_string-subbuild/static_string-populate-prefix/src/static_string-populate-stamp/static_string-populate-test.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/static_string-subbuild/static_string-populate-prefix/src/static_string-populate-stamp/static_string-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"static_string-populate"
+		],
+		"name" : "static_string-populate"
+	}
+}

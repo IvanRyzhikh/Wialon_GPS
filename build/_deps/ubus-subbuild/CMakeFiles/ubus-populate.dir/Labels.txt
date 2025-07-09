@@ -1,0 +1,14 @@
+# Target labels
+ ubus-populate
+# Source files and their labels
+/home/user/work/mon-service/build/_deps/ubus-subbuild/CMakeFiles/ubus-populate
+/home/user/work/mon-service/build/_deps/ubus-subbuild/CMakeFiles/ubus-populate.rule
+/home/user/work/mon-service/build/_deps/ubus-subbuild/CMakeFiles/ubus-populate-complete.rule
+/home/user/work/mon-service/build/_deps/ubus-subbuild/ubus-populate-prefix/src/ubus-populate-stamp/ubus-populate-build.rule
+/home/user/work/mon-service/build/_deps/ubus-subbuild/ubus-populate-prefix/src/ubus-populate-stamp/ubus-populate-configure.rule
+/home/user/work/mon-service/build/_deps/ubus-subbuild/ubus-populate-prefix/src/ubus-populate-stamp/ubus-populate-download.rule
+/home/user/work/mon-service/build/_deps/ubus-subbuild/ubus-populate-prefix/src/ubus-populate-stamp/ubus-populate-install.rule
+/home/user/work/mon-service/build/_deps/ubus-subbuild/ubus-populate-prefix/src/ubus-populate-stamp/ubus-populate-mkdir.rule
+/home/user/work/mon-service/build/_deps/ubus-subbuild/ubus-populate-prefix/src/ubus-populate-stamp/ubus-populate-patch.rule
+/home/user/work/mon-service/build/_deps/ubus-subbuild/ubus-populate-prefix/src/ubus-populate-stamp/ubus-populate-test.rule
+/home/user/work/mon-service/build/_deps/ubus-subbuild/ubus-populate-prefix/src/ubus-populate-stamp/ubus-populate-update.rule

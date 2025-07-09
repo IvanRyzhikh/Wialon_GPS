@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/ubox-subbuild/CMakeFiles/ubox-populate"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/ubox-subbuild/CMakeFiles/ubox-populate.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/ubox-subbuild/CMakeFiles/ubox-populate-complete.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/ubox-subbuild/ubox-populate-prefix/src/ubox-populate-stamp/ubox-populate-build.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/ubox-subbuild/ubox-populate-prefix/src/ubox-populate-stamp/ubox-populate-configure.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/ubox-subbuild/ubox-populate-prefix/src/ubox-populate-stamp/ubox-populate-download.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/ubox-subbuild/ubox-populate-prefix/src/ubox-populate-stamp/ubox-populate-install.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/ubox-subbuild/ubox-populate-prefix/src/ubox-populate-stamp/ubox-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/ubox-subbuild/ubox-populate-prefix/src/ubox-populate-stamp/ubox-populate-patch.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/ubox-subbuild/ubox-populate-prefix/src/ubox-populate-stamp/ubox-populate-test.rule"
+		},
+		{
+			"file" : "/home/user/work/mon-service/build/_deps/ubox-subbuild/ubox-populate-prefix/src/ubox-populate-stamp/ubox-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ubox-populate"
+		],
+		"name" : "ubox-populate"
+	}
+}

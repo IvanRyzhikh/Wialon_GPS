@@ -1,0 +1,14 @@
+# Target labels
+ logger-populate
+# Source files and their labels
+/home/user/work/mon-service/build/_deps/logger-subbuild/CMakeFiles/logger-populate
+/home/user/work/mon-service/build/_deps/logger-subbuild/CMakeFiles/logger-populate.rule
+/home/user/work/mon-service/build/_deps/logger-subbuild/CMakeFiles/logger-populate-complete.rule
+/home/user/work/mon-service/build/_deps/logger-subbuild/logger-populate-prefix/src/logger-populate-stamp/logger-populate-build.rule
+/home/user/work/mon-service/build/_deps/logger-subbuild/logger-populate-prefix/src/logger-populate-stamp/logger-populate-configure.rule
+/home/user/work/mon-service/build/_deps/logger-subbuild/logger-populate-prefix/src/logger-populate-stamp/logger-populate-download.rule
+/home/user/work/mon-service/build/_deps/logger-subbuild/logger-populate-prefix/src/logger-populate-stamp/logger-populate-install.rule
+/home/user/work/mon-service/build/_deps/logger-subbuild/logger-populate-prefix/src/logger-populate-stamp/logger-populate-mkdir.rule
+/home/user/work/mon-service/build/_deps/logger-subbuild/logger-populate-prefix/src/logger-populate-stamp/logger-populate-patch.rule
+/home/user/work/mon-service/build/_deps/logger-subbuild/logger-populate-prefix/src/logger-populate-stamp/logger-populate-test.rule
+/home/user/work/mon-service/build/_deps/logger-subbuild/logger-populate-prefix/src/logger-populate-stamp/logger-populate-update.rule

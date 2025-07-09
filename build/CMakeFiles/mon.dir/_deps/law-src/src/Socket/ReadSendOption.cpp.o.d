@@ -1,0 +1,19 @@
+CMakeFiles/mon.dir/_deps/law-src/src/Socket/ReadSendOption.cpp.o: \
+  /home/user/work/mon-service/build/_deps/law-src/src/Socket/ReadSendOption.cpp \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/sys/socket.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/features.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/bits/alltypes.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/bits/socket.h \
+  /home/user/work/mon-service/build/_deps/law-src/inc/law/Socket/ReadSendOption.h \
+  /home/user/work/mon-service/build/_deps/law-src/inc/law/FlagValue.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/cstdint \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/arm-linux-musleabihf/bits/c++config.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/arm-linux-musleabihf/bits/os_defines.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/arm-linux-musleabihf/bits/cpu_defines.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/pstl/pstl_config.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/stdint.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/bits/stdint.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/compare \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/bits/version.h \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/concepts \
+  /opt/arm-linux-musleabihf/lib/gcc/arm-linux-musleabihf/14.2.0/../../../../arm-linux-musleabihf/include/c++/14.2.0/type_traits

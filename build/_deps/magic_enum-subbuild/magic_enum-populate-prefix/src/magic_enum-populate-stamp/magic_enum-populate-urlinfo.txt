@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/usr/bin/cmake;-P;/home/user/work/mon-service/build/_deps/magic_enum-subbuild/magic_enum-populate-prefix/src/magic_enum-populate-stamp/download-magic_enum-populate.cmake;COMMAND;/usr/bin/cmake;-P;/home/user/work/mon-service/build/_deps/magic_enum-subbuild/magic_enum-populate-prefix/src/magic_enum-populate-stamp/verify-magic_enum-populate.cmake;COMMAND;/usr/bin/cmake;-P;/home/user/work/mon-service/build/_deps/magic_enum-subbuild/magic_enum-populate-prefix/src/magic_enum-populate-stamp/extract-magic_enum-populate.cmake
+source_dir=/home/user/work/mon-service/build/_deps/magic_enum-src
+work_dir=/home/user/work/mon-service/build/_deps
+url(s)=http://ftdocker04.ft.local:60761/stable/cortex-a7/libmagic_enum-v0.9.5-2-ge627f78.tar.gz
+hash=
+no_extract=
+

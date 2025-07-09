@@ -1,0 +1,14 @@
+# Target labels
+ static_string-populate
+# Source files and their labels
+/home/user/work/mon-service/build/_deps/static_string-subbuild/CMakeFiles/static_string-populate
+/home/user/work/mon-service/build/_deps/static_string-subbuild/CMakeFiles/static_string-populate.rule
+/home/user/work/mon-service/build/_deps/static_string-subbuild/CMakeFiles/static_string-populate-complete.rule
+/home/user/work/mon-service/build/_deps/static_string-subbuild/static_string-populate-prefix/src/static_string-populate-stamp/static_string-populate-build.rule
+/home/user/work/mon-service/build/_deps/static_string-subbuild/static_string-populate-prefix/src/static_string-populate-stamp/static_string-populate-configure.rule
+/home/user/work/mon-service/build/_deps/static_string-subbuild/static_string-populate-prefix/src/static_string-populate-stamp/static_string-populate-download.rule
+/home/user/work/mon-service/build/_deps/static_string-subbuild/static_string-populate-prefix/src/static_string-populate-stamp/static_string-populate-install.rule
+/home/user/work/mon-service/build/_deps/static_string-subbuild/static_string-populate-prefix/src/static_string-populate-stamp/static_string-populate-mkdir.rule
+/home/user/work/mon-service/build/_deps/static_string-subbuild/static_string-populate-prefix/src/static_string-populate-stamp/static_string-populate-patch.rule
+/home/user/work/mon-service/build/_deps/static_string-subbuild/static_string-populate-prefix/src/static_string-populate-stamp/static_string-populate-test.rule
+/home/user/work/mon-service/build/_deps/static_string-subbuild/static_string-populate-prefix/src/static_string-populate-stamp/static_string-populate-update.rule
